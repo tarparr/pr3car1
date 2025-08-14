@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+.myboxx{
+
+    background-image: url('/images/dcarimg10.png ');
+	margin: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+	padding: 0px;
+	width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+vertical-align: middle;
+ 
+  min-height: 80vh;
+}
+
+
+@media(max-width:768px){
+
+.myboxx{
+
+    background-image: url('/images/dcarimg10.png ');
+    background-position: center;
+    background-repeat: no-repeat;
+ /* object-fit: contain; */
+background-size: 100% 100%;	
+ padding: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+vertical-align: middle;
+ 
+  min-height: 40vh;
+}
+
+
+} 

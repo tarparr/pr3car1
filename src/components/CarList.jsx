@@ -22,7 +22,7 @@ class CarList extends React.Component {
     return (
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {this.cars.map((car, index) => (
-          <div key={index} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div key={index} className="bg-white chng rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <img src={car.image} alt={car.name} className="h-48 w-full object-cover" />
             <div className="p-4">
               <h3 className="text-xl font-semibold text-gray-800 mb-1">

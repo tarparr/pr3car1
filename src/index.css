@@ -18,6 +18,16 @@ vertical-align: middle;
   min-height: 80vh;
 }
 
+.chng{
+  border: 3px solid white;
+  
+
+}
+.chng:hover{
+  border: 3px solid #dba309;
+  
+
+}
 
 @media(max-width:768px){
 
